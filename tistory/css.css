@@ -78,14 +78,24 @@ html, body {
 html {
 	-webkit-tap-highlight-color: var(--none-color);
 }
+
 /* 스크롤 */
-html { overflow-y:scroll; } /* 세로스크롤을 항상 표시 */
-::-webkit-scrollbar { width: 10px; height: 10px; } /* 스크롤 바 */
-::-webkit-scrollbar-track { background: #fff; } /* 스크롤 바 밑의 배경 */
-::-webkit-scrollbar-thumb { background: #858585; border-radius:10px } /* 실질적 스크롤 바 */
-::-webkit-scrollbar-thumb:hover { background: #8f8f8f; } /* 실질적 스크롤 바 위에 마우스를 올려다 둘 때 */
-::-webkit-scrollbar-thumb:active { background: #999999; } /* 실질적 스크롤 바를 클릭할 때 */
-::-webkit-scrollbar-button { display: none; } /* 스크롤 바 상단 하단 버튼 */
+/* > 세로스크롤을 항상 표시 */
+html { overflow-y:scroll; }
+/* > 스크롤 바 */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+/* > 스크롤 바 밑의 배경 */
+::-webkit-scrollbar-track { background: #fff; }
+/* > 실질적 스크롤 바 */
+::-webkit-scrollbar-thumb { background: #858585; border-radius:10px }
+/* > 실질적 스크롤 바 위에 마우스를 올려다 둘 때 */
+::-webkit-scrollbar-thumb:hover { background: #8f8f8f; }
+/* > 실질적 스크롤 바를 클릭할 때 */
+::-webkit-scrollbar-thumb:active { background: #999999; }
+/* > 스크롤 바 상단 하단 버튼 */
+::-webkit-scrollbar-button { display: none; }
+/* // 스크롤 */
+
 body {
 	line-height: 1.6;
 	font-size: 18px;
@@ -972,7 +982,10 @@ blockquote {
 .tt-cate-collapse .tt-has-sub.open > .tt-cate-toggle .icon:before {
 	content: "\e60e"
 }
-.tt-cate-collapse :is(.tt-has-sub > a.active:after, .tt-has-sub > a.active > .ie-after) {
+.tt-cate-collapse :is(
+.tt-has-sub > a.active:after,
+.tt-has-sub > a.active > .ie-after
+) {
 	display: none
 }
 
@@ -3151,15 +3164,31 @@ blockquote {
 
 /* Tistory Plugins */
 /* 태그 클라우드 */
-.cloud1 {
+.cloud1,
+.cloud2,
+.cloud3 {
 	color: #fff !important;
-	background-color: var(--main-color);
 	font-weight: 700;
 }
-.cloud2 {color: #fff !important; background-color: #777; font-weight: 700;}
-.cloud3 {color: #fff !important; background-color: #aaa; font-weight: 700;}
-.cloud4 {color: #555!important; background-color: #ddd;}
-.cloud5 {color: #555 !important; background-color: #f0f0f0;}
+.cloud4,
+.cloud5 {
+	color: #555!important;
+}
+.cloud1 {
+	background-color: var(--main-color);
+}
+.cloud2 {
+	background-color: #777;
+}
+.cloud3 {
+	background-color: #aaa;
+}
+.cloud4 {
+	background-color: #ddd;
+}
+.cloud5 {
+	background-color: #f0f0f0;
+}
 
 /* 툴바 */
 #tistorytoolbarid {display: none;}
