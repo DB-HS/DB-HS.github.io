@@ -501,7 +501,10 @@ hr.ng-margin {
 	display: block;
 	visibility: visible;
 }
-#tt-body-page figure.imageblock {
+figure.imagegridblock,
+#tt-body-page figure.imageblock,
+#tt-body-page figure.imagegridblock
+{
 	margin: 20px auto;
 	border-bottom: 1px solid rgb(0 0 0 / 30%);
 	border-radius: 50px;
@@ -513,6 +516,7 @@ figure.imagegridblock .image-container {
 	border-radius: 10px;
 	padding: 5px;
 }
+#tt-body-page figure figcaption,
 #tt-body-page figure.imageblock figcaption {
 	padding: 5px 15px 20px;
 }
