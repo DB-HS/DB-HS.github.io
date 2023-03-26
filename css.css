@@ -4,5 +4,5 @@ body {
   font-family: D2Coding, 'D2 coding', monospace;
 }
 ul {
-  display: table-cell;
+  display: inline-flex;
 }
