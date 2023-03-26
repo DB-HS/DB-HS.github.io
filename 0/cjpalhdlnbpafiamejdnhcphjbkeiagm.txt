@@ -1,0 +1,57 @@
+! 2023-02-16 https://www.youtube.com
+www.youtube.com##.ytd-compact-video-renderer.style-scope.badges
+
+! 2022-11-14 https://www.youtube.com
+www.youtube.com##ytd-rich-item-renderer:has([href*="&list"])
+
+! 2022-10-09 https://www.youtube.com
+www.youtube.com###foreground-content
+||www.gstatic.com/youtube/img/promos/growth/*_129x56.webp$image
+||www.gstatic.com/youtube/img/promos/growth/*_122x56.png$image
+www.youtube.com##.ytd-rich-grid-media.style-scope.video-badge
+
+! 2022-10-08 https://www.youtube.com
+www.youtube.com##[title="Originals"]
+www.youtube.com##[title="YouTube Music"]
+www.youtube.com##[title="Shorts"]
+www.youtube.com##[title="탐색"]
+www.youtube.com##[title="시청 기록"]
+www.youtube.com##[title="의견 보내기"]
+! 영상 레이아웃 내 쇼츠 및 광고 등
+www.youtube.com##ytd-rich-section-renderer
+
+! 2022-10-07 https://www.youtube.com
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+www.youtube.com###guide #footer
+
+! 2023-02-24 https://www.youtube.com
+www.youtube.com###video-badges
+
+! 2022-10-08 https://namu.wiki
+namu.wiki##div#app > div > div:nth-of-type(2) > div > div:nth-of-type(2)
+
+! 2022-10-08 https://namu.wiki
+namu.wiki##div#app > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div[class=""]
+namu.wiki##footer
+
+! 2022-10-08 https://namu.wiki
+namu.wiki##div#app > div > div > div > div > div > div > div > div > div > div > div > div:nth-of-type(1)
+
+! 2023-03-18 https://centralfit.co.kr
+||googleads.g.doubleclick.net/$subdocument
+
+! 2023-03-19 https://www.instagram.com
+www.instagram.com##._agh4._aak3
+www.instagram.com##._aj3f._aac6._aac5._aac4
+www.instagram.com##.x1nhvcw1.x1oa3qoh.x6s0dn4.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1n2onr6.x5ib6vp.xx6bls6.xc73u3c.x1cnzs8.xo71vjh.x5pf9jr.x13lgxp2.x168nmei.x78zum5.xjbqb8w.x9f619
+www.instagram.com##.xh8yej3.x1ye3gou.x1gan7if.xn6708d.x1miatn0.xdt5ytf.x78zum5.x9f619.xjbqb8w.x6s0dn4
+
+! 2023-03-22 https://www.instagram.com
+www.instagram.com##div [href="/explore/"]
+www.instagram.com##div [href="/reels/"]
+www.instagram.com##._aam1 > div > a > div > div > span
+
+! 2023-03-25 https://accounts.kakao.com
+accounts.kakao.com##.info_tip
+
